@@ -3,6 +3,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+Mission_to_Mars.ipynb
+
+practice.ipynb
+
 # C extensions
 *.so
 
