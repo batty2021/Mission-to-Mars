@@ -47,12 +47,11 @@ def mars_news(browser):
 
         # Use the parent element to find the first a tag and save it as `news_title`
         news_title = slide_elem.find('div', class_='content_title').get_text()
-        # news_title
 
 
         # Use the parent element to find the paragraph text
         news_p = slide_elem.find('div', class_='article_teaser_body').get_text()
-        # news_p
+    
          # handles errors that may occur froms craping      
     except AttributeError:
         return None, None
@@ -113,10 +112,8 @@ def mars_hemisphere_data(browser):
 
     # Create a list to hold the images and titles.
     hemisphere_image_urls = []
-    # base_url = 'https://astrogeology.usgs.gov'
-
+   
     #Use browser to visit the URL 
-    # url = 'https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars'
     url = 'https://marshemispheres.com/'
     browser.visit(url + 'index.html')
     for i in range(4):
@@ -130,9 +127,6 @@ def mars_hemisphere_data(browser):
         browser.back()
 
     # 3. Write code to retrieve the image urls and titles for each hemisphere.
-    # html = browser.html
-    # html_soup = soup(html, 'html.parser')
-    # mars_info_container = html_soup.select('div.description')
     #loop through scraped data
     """
     try:
