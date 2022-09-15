@@ -2,7 +2,7 @@
 Build an app to scrape websites for data pertaining to the mission to Mars &amp; then create an HTML page to display our findings.
 
 
-# Technologies i used;
+# Technologies used:
 
 - HTML , Python  
 - jupyter notebook and VS Code editer
@@ -10,7 +10,7 @@ Build an app to scrape websites for data pertaining to the mission to Mars &amp;
 - Pandas to scrape data from HTML tables
 - a Mongo database to store the scraped data 
  
- # purpose 
+ # purpose :
   
     Robin's web app needs more polish by using BeautifulSoup and Splinter to scrape full-resolution images
     of Mars’s hemispheres and the titles of those images, store the scraped data on a Mongo database, 
